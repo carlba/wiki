@@ -1,0 +1,121 @@
+.. contents::
+
+Installation
+============
+
+https://docs.docker.com/engine/installation
+
+#. Docker
+   The easiest way to install Docker on major linux distributions is
+
+   .. code-block:: bash
+
+      wget -qO- https://get.docker.com/ | sudo sh
+
+#. docker-compose
+
+   Compose is a tool for defining and running multi-container Docker applications. With Compose,
+   you use a Compose file to configure your application’s services. Then, using a single command,
+   you create and start all the services from your configuration.
+
+   .. code-block:: bash
+
+      sudo pip install docker-compose
+
+
+#. shipyard
+
+   `Shipyard <https://github.com/shipyard/shipyard>`_ is a UI that simplifies the sometimes
+   tedious task of managing your images and instances.
+
+   .. code-block:: bash
+
+      curl -s https://shipyard-project.com/deploy | sudo bash -s
+
+Usage
+=====
+
+This information is provided in a verbose version at
+`Get started with Docker guide <https://docs.docker.com/engine/getstarted/>`_.
+I recommend reading through that and the rest of the Docker documentation for a more thorough
+understanding of the subject.
+
+Basics
+------
+
+1. ``docker ps`` - List the state of your Docker containers
+
+Building Docker images locally
+------------------------------
+
+.. code-block:: bash
+
+   sudo docker build -t docker.smithmicro.net/passport:latest .
+
++------------+---------------------------------------------------+
+| Argument   | Description                                       |
++============+===================================================+
+| -t         | Name the image                                    |
++------------+---------------------------------------------------+
+
+Pushing Docker image to registry
+--------------------------------
+
+.. code-block:: bash
+
+   sudo docker push docker.smithmicro.net/passport:latest
+
+Running Docker containers
+-------------------------
+.. code-block:: bash
+
+   sudo docker run --name passport -p 8002:8002 docker.smithmicro.net/passport:latest
+
+Mounting volumes
+^^^^^^^^^^^^^^^^
+
+.. code-block:: bash
+
+   sudo docker run --name passport --volume $PWD/logs:/var/log/smsi/passport -p 8002:8002 docker.smithmicro.net/passport:latest
+
+Access container with bash
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: bash
+
+   sudo docker exec -i -t {container_name} /bin/bash
+
++--------------+--------------------------------------------------------+
+| Argument     | Description                                            |
++==============+========================================================+
+| --name       | Name the instance                                      |
++--------------+--------------------------------------------------------+
+| --volume/-v  | Mount a container volume to the host. Use $PWD to mount|
+|              | to the current folder.                                 |
++--------------+--------------------------------------------------------+
+
+https://docs.docker.com/engine/reference/run/
+
+Monitoring
+==========
+`Glances`_ is a good tool for monitoring the status of docker instances.
+It can be installed like this:
+
+.. code-block:: bash
+
+   curl -L http://bit.ly/glances | /bin/bash
+
+and run like this
+
+.. code-block:: bash
+
+   sudo glances
+
+
+.. _`Glances`: https://nicolargo.github.io/glances
+
+
+Best practices
+==============
+* https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices
+* http://crosbymichael.com/dockerfile-best-practices-take-2.html

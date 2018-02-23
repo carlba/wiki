@@ -1,0 +1,4 @@
+# Updating
+``` bash
+pacman -Syu
+```

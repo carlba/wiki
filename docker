@@ -1,0 +1,7 @@
+# Usage
+
+## Access container with bash
+
+```bash
+sudo docker exec -i -t {container_name} /bin/bash
+```
