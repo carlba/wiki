@@ -8,11 +8,6 @@
 >ng set --global warnings.versionMismatch=false
 >```
 
-test
-test
-test
-test
-test
 ---
 
 ## Create component
