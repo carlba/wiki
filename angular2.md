@@ -7,7 +7,6 @@
 >``` bash
 >ng set --global warnings.versionMismatch=false
 >```
-
 ---
 
 ## Create component
