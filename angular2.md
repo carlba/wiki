@@ -18,6 +18,7 @@ test
 
 test
 
+test
 ## Create component
 ``` bash
 ng generate component [name]
