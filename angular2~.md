@@ -8,7 +8,6 @@
 >ng set --global warnings.versionMismatch=false
 >```
 
-test
 
 ---
 
