@@ -14,3 +14,4 @@ chromium-browser --disable-web-security --user-data-dir
 
 
 GET /portal/fontawesome-webfont.af7ae505a9eed503f8b8.woff2
+GET /portal/fontawesome-webfont.af7ae505a9eed503f8b8.woff2
