@@ -331,12 +331,11 @@ this.ingredients.push(...ingredients);
             this.router.navigate(['/servers']);
           }
         }
-
+        ```      
+        
 ---------------------------------------------------------------------------------------------------
 
-
-    return this.http.put('https://udemy-ng-recipes-39233.firebaseio.com/recipes.json?auth=' + token, this.recipeService.getRecipes(), {
-      observe: 'body',
-      headers: new HttpHeaders().set('Authorization', 'Bearer ')
-    });
+        
+## Using Javascript libraries in TypeScript/Angular2 app
+https://netbasal.com/using-3rd-party-library-inside-angular2-c06b7675d3a
 
