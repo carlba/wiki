@@ -24,5 +24,6 @@
     The type is only infered if a value is set to the varible at declaration.
     
 
+## Classes
 
 
