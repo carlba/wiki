@@ -1,3 +1,7 @@
+## General
+
+http://www.typescriptlang.org/docs/home.html
+
 ## Type declaration
 
 * Define a variable as a string
