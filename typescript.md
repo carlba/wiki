@@ -36,15 +36,17 @@
     
 ## Interfaces
 
-* Define type return value
+* Declare interface
 
     ```typescript
     interface User {
         username: string;
         password: string:
-        confirm
+        confirmPassword?: string
     }
     ```
+    
+    The questionmark indicates an optional property
 
     
 
