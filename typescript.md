@@ -26,4 +26,9 @@
 
 ## Classes
 
+* Define type return value
+
+    ``` typescript
+    
+    
 
