@@ -34,4 +34,17 @@
       }
     ```
     
+## Interfaces
+
+* Define type return value
+
+    ```typescript
+    interface User {
+        username: string;
+        password: string:
+        confirm
+    }
+    ```
+
+    
 
