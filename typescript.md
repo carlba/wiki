@@ -29,6 +29,9 @@
 * Define type return value
 
     ``` typescript
-    
+      getEndpointName(): string {
+         return 'android';
+      }
+    ```
     
 
