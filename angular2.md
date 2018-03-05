@@ -339,3 +339,4 @@ this.ingredients.push(...ingredients);
 ## Using Javascript libraries in TypeScript/Angular2 app
 https://netbasal.com/using-3rd-party-library-inside-angular2-c06b7675d3a
 
+## Testing
