@@ -11,6 +11,8 @@
     let myString = 'This is my string'
     ```
     
+    The type is only 
+    
 
 
 
