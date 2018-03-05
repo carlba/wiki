@@ -2,7 +2,7 @@
 
 http://www.typescriptlang.org/docs/home.html
 
-## Type declaration
+## Type declarationd
 
 * Define a variable as a string
     
