@@ -1,5 +1,5 @@
 * Always use synchronize instead of copy for large files or folders
-
+    
     ```yaml 
     synchronize:
           archive: true
