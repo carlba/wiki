@@ -58,3 +58,8 @@ https://flexget.com/CLI
 sudo docker exec -it mediaserver_flexget_1 flexget -c /config/config.yml execute --discover-now --tasks sync_collected_trakt
 ```
 
+
+
+aasdfasdfas
+
+
