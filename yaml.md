@@ -12,8 +12,9 @@ example: 'this is a very very very very very very very very very very
 ## Block string
 
 ``` yaml
-example: 'this is a very very very very very very very very very very 
-          very very very very very  very very very  very very very  
-          very very very  very very very  very very very  very very 
-          very long string'
+example: > 
+  this is a very very very very very very very very very very 
+  very very very very very  very very very  very very very  
+  very very very  very very very  very very very  very very 
+  very long string
 ```
