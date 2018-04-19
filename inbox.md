@@ -15,3 +15,8 @@ chromium-browser --disable-web-security --user-data-dir
 
 GET /portal/fontawesome-webfont.af7ae505a9eed503f8b8.woff2
 GET /portal/fontawesome-webfont.af7ae505a9eed503f8b8.woff2
+
+## Generate Certificate and Key
+
+``` bash
+openssl req -new -newkey rsa:2048 -days 365 -nodes -x509 -keyout server.key -out server.crt

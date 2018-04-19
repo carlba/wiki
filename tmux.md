@@ -12,3 +12,8 @@ or
 ``` bash
 tmux source ~/.tmux.conf
 ```
+
+## Modify windows
+```
+ctrl+b : swap-window -s 3 -t 1
+```
