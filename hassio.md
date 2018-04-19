@@ -1,5 +1,7 @@
 14409345
 
+20006
+
 ``` json
 {"addon":"core_tellstick","input":{"function":"learn","device":"3"}}
 {"addon":"core_tellstick","input":{"function":"learn","device":"1"}}
