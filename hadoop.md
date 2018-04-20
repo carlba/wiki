@@ -13,8 +13,6 @@ It does so by
 
 Hadoop Distrubuted Filesystem
 
-![What is this](benefits of HDFS.png)
-
 [a relative link](Working-With-Hdfs.txt)
 
 ```
@@ -120,3 +118,5 @@ Rack - Collection of nodes
 Cluster - Racks interconnected over network
 Datacenter - Physical location for a cluster.
 
+
+## MapReduce
