@@ -9,3 +9,6 @@ It does so by
 * MapReduce - Distrubuted Computation
 
 
+## HDFS
+
+Hadoop Distrubuted Filesystem
