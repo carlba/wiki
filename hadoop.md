@@ -13,5 +13,4 @@ It does so by
 
 Hadoop Distrubuted Filesystem
 
-* Support distributed processing
-!benefits of HDFS.png
+![What is this](benefits of HDFS.png)
