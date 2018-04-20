@@ -104,3 +104,10 @@ hadoop fs -rm -r hadoop-test2
 hadoop fs -rm -r hadoop-test3
 
 ```
+
+## Configuration
+
+The configuration for the name node is stored in /etc/hadoop/conf.
+
+* The /etc/hadoop/conf/core-site.xml contains information that is used by the entire cluser and is also replicated 
+  to all nodes within it
