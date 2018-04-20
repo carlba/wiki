@@ -1,5 +1,11 @@
 ## What is hadoop
 
-Hadoop is a framwork for distribyted processing of large 
+Hadoop is a framwork for distribyted processing of large data sets across clusters of commodity computers.
 
-HDFS - Reliable Shared Storage + MapReduce - Distrubuted Computation
+
+It does so by
+
+* HDFS - Reliable Shared Storage 
+* MapReduce - Distrubuted Computation
+
+
