@@ -15,7 +15,7 @@ Hadoop Distrubuted Filesystem
 
 ![What is this](benefits of HDFS.png)
 
-[a relative link](other_file.md)
+[a relative link](Working-With-Hdfs.txt)
 
 ```
 /**************Hadoop In Real World**************/
