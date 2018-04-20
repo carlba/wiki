@@ -116,3 +116,5 @@ The configuration for the name node is stored in /etc/hadoop/conf.
 
 Rack - Collection of nodes
 Cluster - Racks interconnected over network
+Datacenter - Physical location for a cluster.
+
