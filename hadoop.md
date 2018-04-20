@@ -15,6 +15,8 @@ Hadoop Distrubuted Filesystem
 
 ![What is this](benefits of HDFS.png)
 
+[a relative link](other_file.md)
+
 ```
 /**************Hadoop In Real World**************/
 Hadoop In Real World *** http://www.hadoopinrealworld.com
