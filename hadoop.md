@@ -12,3 +12,5 @@ It does so by
 ## HDFS
 
 Hadoop Distrubuted Filesystem
+
+* Support distributed processing
