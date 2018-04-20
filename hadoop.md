@@ -14,3 +14,5 @@ It does so by
 Hadoop Distrubuted Filesystem
 
 ![What is this](benefits of HDFS.png)
+
+![What is this](Working-With-Hdfs.txt)
