@@ -7,3 +7,4 @@ We use cloudera which is a packaged distrubution of hadoop. It was the first com
 A relationshippy interface to hadoop.
 
 # The client
+
