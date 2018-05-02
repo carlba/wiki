@@ -4,3 +4,6 @@ We use cloudera which is a packaged distrubution of hadoop. It was the first com
 
 # Apache Hive
 
+A relationshippy interface to hadoop.
+
+# The client
