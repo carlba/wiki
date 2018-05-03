@@ -25,3 +25,7 @@ schema: /usr/local/smithmicro/opticsagent
 
  
 HDFS /user/hadoop/analytics
+
+
+cronjob hadoop user
+
