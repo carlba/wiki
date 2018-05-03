@@ -23,6 +23,5 @@ configuration: /usr/local/smithmicro/opticsagent
 
 schema: /usr/local/smithmicro/opticsagent
 
-
-
  
+HDFS /user/hadoop/analytics
