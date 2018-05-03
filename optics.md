@@ -29,3 +29,9 @@ HDFS /user/hadoop/analytics
 
 cronjob hadoop user
 hive-kicker.sh Restart optics agent if it suspended.
+
+healthCheck.sh monitor status of cluster
+
+
+
+\\smsi-pgh-023.smsi.com\ISOs\RHEL\5.x <file://smsi-pgh-023.smsi.com/ISOs/RHEL/5.x>
