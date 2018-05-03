@@ -28,4 +28,4 @@ HDFS /user/hadoop/analytics
 
 
 cronjob hadoop user
-
+hive-kicker.sh Restart optics agent if it suspended.
