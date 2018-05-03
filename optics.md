@@ -9,4 +9,7 @@ A relationshippy interface to hadoop.
 # The client
 
 
+/usr/local/smithmicro/data shared data folder for logger and agent
 
+archive - procecssed and converted to AVRO
+ 
