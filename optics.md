@@ -19,8 +19,9 @@ archive - procecssed and converted to AVRO
 processed - proccessed into AVRO
 
 optics agent
-configuration:
-schema:
+configuration: /usr/local/smithmicro/opticsagent
+
+schema: /usr/local/smithmicro/opticsagent
 
 
 
