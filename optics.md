@@ -12,4 +12,8 @@ A relationshippy interface to hadoop.
 /usr/local/smithmicro/data shared data folder for logger and agent
 
 archive - procecssed and converted to AVRO
+processed - proccessed into AVRO
+
+
+
  
