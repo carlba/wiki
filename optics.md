@@ -35,3 +35,13 @@ healthCheck.sh monitor status of cluster
 
 
 \\smsi-pgh-023.smsi.com\ISOs\RHEL\5.x <file://smsi-pgh-023.smsi.com/ISOs/RHEL/5.x>
+
+
+Rhel 5.8
+
+
+Ask about data set
+
+Andy stites - QA Lead
+
+
