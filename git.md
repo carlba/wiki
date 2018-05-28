@@ -46,6 +46,12 @@ git merge parent-branch
 ```
 Taken from: http://git-scm.com/docs/git-stash
 
+## Delete branch
+
+```
+git branch -d the_local_branch
+```
+
 ## Commit as a certain user
 ```bash
 git commit --author "Carl Backström <carl.backstrom@smithmicro.com>"
