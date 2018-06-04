@@ -19,6 +19,15 @@ mysqldump -u root -p[password] [database_name] > [dump_file_name].sql
 mysql -u root -p [database_name] < [dump_file_name].sql
 ```
 
+# GRANTS
+
+## Grant access to a user@server combination
+
+```sql
+CREATE USER 'radius'@'192.168.1.1' IDENTIFIED BY 'radius';
+GRANT ALL ON radius.* TO 'radius'@'192.168.1.1';
+```
+
 # Understanding
 Use the [online exploratory tool](https://www.w3schools.com/sql/trysql.asp?filename=trysql_op_or) to try out simple SQL queries.
 
