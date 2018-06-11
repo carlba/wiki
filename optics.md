@@ -9,7 +9,7 @@ A relationshippy interface to hadoop.
 # The client
 
 
-jLogger accepts databases from clients on port 8080 and stores them into /usr/local/smithmicro/data 
+jLogger accepts databases from clients on port 8080 and stores them into /usr/local/smithmicro/data
 
 /usr/local/smithmicro/data shared data folder for logger and agent
 
@@ -23,7 +23,7 @@ configuration: /usr/local/smithmicro/opticsagent
 
 schema: /usr/local/smithmicro/opticsagent
 
- 
+
 HDFS /user/hadoop/analytics
 
 
@@ -64,14 +64,14 @@ Added /sbin to bashrc for shutdown command to work
 
 ## RHEL 5.8
 
-Memory for VM: minimum 4 16 prefered 
+Memory for VM: minimum 4 16 prefered
 
 
 * Download the installer
 smb://smsi-pgh-023/Analytics/_Repos/Redhat/analytics-redhat5.8-archives.tar.gz
 
 * Download the repo
-smb://smsi-pgh-023/Analytics/_Repos/Redhat/analytics-redhat5.8-archives.tar.gz 
+smb://smsi-pgh-023/Analytics/_Repos/Redhat/analytics-redhat5.8-archives.tar.gz
 
 cd ~/analytics_package/system_config/puppet/scripts
 
@@ -117,11 +117,12 @@ http://10.101.66.107:9080/admin/events tail events
 2. Send event
 
 ```bash
-curl -v "http://10.101.66.107:8080/events" -d "v=v1.0.0.0&g=aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee&t=80f07b369a682aa32c5ed428b227b2503ffc5b08a822823e00959b9b3c1ea2310e1c42acfc6e9019856764de854fd4b7ab602d0d8582f699" -d 'data=[ 1, "2010-04-16 16:29:26", "DEV-SAMPLE", "1.2.3.4", "111-222-333-444-555", "FavoriteFood", { "Drink": "Tobasco", "Spicy": true } ]'  
+curl -v "http://10.101.66.107:8080/events" /
+    -d "v=v1.0.0.0&g=aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee&t=80f07b369a682aa32c5ed428b227b2503ffc5b08a822823e00959b9b3c1ea2310e1c42acfc6e9019856764de854fd4b7ab602d0d8582f699" -d 'data=[ 1, "2010-04-16 16:29:26", "DEV-SAMPLE", "1.2.3.4", "111-222-333-444-555", "FavoriteFood", { "Drink": "Tobasco", "Spicy": true } ]' 
 ```
 
 3. Tail the logfile of jlogger to observce the events come on
-    
+
     ``` bash
     tail -f /usr/local/smithmicro/data/events.log
     ```
@@ -152,7 +153,7 @@ http://10.101.66.107:50030/jobtracker.jsp See mapreduce jobs Most important one
 http://10.101.66.107:50070/dfshealth.jsp
 http://10.101.66.107:50070/dfsnodelist.jsp?whatNodes=LIVE
 http://10.101.66.107:50030/machines.jsp?type=active
-http://10.101.66.107:50090/status.jsp 
+http://10.101.66.107:50090/status.jsp
 
 
 sudo vi /etc/hadoop/conf/hadoop-env.sh
@@ -171,7 +172,7 @@ sudo service hadoop-0.20-tasktracker restart
 sudo service hadoop-0.20-namenode restart
 
 
-## 
+##
 
 ## Hive log file
 
