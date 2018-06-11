@@ -32,13 +32,10 @@ _jb_runner_tools.py
 ``` python
 class NewTeamcityServiceMessages(_old_service_messages):
     _latest_subtest_result = None
-    
+
     def message(self, messageName, **properties):
         if messageName in set(["enteredTheMatrix", "testCount", "testIgnored"]):
 ```
-
-
-
 
 ## Themes
 
