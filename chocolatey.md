@@ -12,7 +12,7 @@ Run this in an elevated command prompt
 Use the ``--allow-empty-checksums-secure`` to prevent validating checksums
 
 ```cmd
-choco install -y ccleaner chocolateygui dropbox SublimeText3 SublimeText3.PackageControl sublimetext3-contextmenu spotify javaruntime google-chrome-x64 skype python2 cygwin virtualbox virtualbox.extensionpack steam irfanview adobereader revo.uninstaller avirafreeantivirus defraggler atom synctrayzor
+choco install -y ccleaner chocolateygui dropbox SublimeText3 SublimeText3.PackageControl sublimetext3-contextmenu spotify javaruntime google-chrome-x64 skype python2 cygwin virtualbox virtualbox.extensionpack steam irfanview adobereader revo.uninstaller defraggler winrar wincdemu
 ```
 
 ### Work
