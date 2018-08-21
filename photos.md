@@ -20,8 +20,10 @@ upload-gphotos Fjällvandring_2013/* -u genzorg@gmail.com -a 'Fjällvandring 20
 ```
 exiftool "-DateTimeOriginal>FileModifyDate" -ext .dng -r /storage/00data/pictures/albums/Sydamerika\ 2013/
 ```
--ext
-:The changes will only be applied to files of this extension
--r
-:Recursivly look for files in the specified folder
+<dl>
+  <dt>-ext</dt>
+  <dd>The changes will only be applied to files of this extension</dd>
+  <dt>-r</dt>
+  <dd>Recursivly look for files in the specified folder</dd>
+</dl>
 
