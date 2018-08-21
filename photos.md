@@ -26,4 +26,3 @@ exiftool "-DateTimeOriginal>FileModifyDate" -ext .dng -r /storage/00data/picture
   <dt>-r</dt>
   <dd>Recursivly look for files in the specified folder</dd>
 </dl>
-
