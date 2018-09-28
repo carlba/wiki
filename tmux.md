@@ -16,9 +16,13 @@ tmux source ~/.tmux.conf
 ## Modify windows
 
 * Swap windows    
-      
-      ctrl+b : swap-window -s 3 -t 1
-
-* Move existing window to new position
+ 
+  ```    
+  ctrl+b : swap-window -s 3 -t 1
+  ```
   
-      ctrl+b : move-window -t <POSITION>
+* Move existing window to new position  
+  
+  ```
+  ctrl+b : move-window -t <POSITION>
+  ```
