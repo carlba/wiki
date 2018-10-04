@@ -73,7 +73,6 @@ http://learnaholic.me/2012/10/10/installing-nginx-in-mac-os-x-mountain-lion/
     /usr/local/etc/nginx/nginx.conf
     ```
 
-
 * homebrew default nginx log
 
     ```
@@ -112,7 +111,6 @@ brew cask install android-platform-tools
 brew cask install journey
 ```
 
-
 ## Alfred
 
 ### Make pirated Alfred stop asking for contact permission
@@ -124,20 +122,25 @@ sudo codesign --force --deep --sign - /Applications/Alfred\ 3.app/Contents/Frame
 
 ### Change Tab Size
 
-``` bash
+```bash
 defaults write com.googlecode.iterm2 OptimumTabWidth -int 500
 ```
 
 ## dash
-``` bash
+```bash
 brew cask install dash
 ```
 
 ## Add user to admin group
-``` bash
+```bash
 sudo dseditgroup -o edit -a $username_to_add -t user admin
 sudo dseditgroup -o edit -a $username_to_add -t user wheel
 ```
 
-http://macappstore.org/pigz/
 
+# Clean space listed as hidden in DaisyDisk
+
+## Remove local snapshots
+```bash
+sudo tmutil listlocalsnapshotdates | tail -n1 | xargs tmutil deletelocalsnapshots
+```
