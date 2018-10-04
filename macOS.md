@@ -2,18 +2,18 @@
 
 ## Make updatedb command available in macOS
 
-``` bash
+```bash
 sudo ln -s /usr/libexec/locate.updatedb /usr/local/bin/updatedb
 ```
 ### Autocomplete ssh hostnames
 
-``` bash
+```bash
 brew install bash-completion
 brew tap homebrew/completions
 ```
 
 Then add the following to your ~/.bash_profile:
-``` bash
+```bash
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 . $(brew --prefix)/etc/bash_completion
 fi
@@ -81,18 +81,18 @@ http://learnaholic.me/2012/10/10/installing-nginx-in-mac-os-x-mountain-lion/
 
 ## KeePass
 
-``` bash
+```bash
 brew cask install macpass
 ```
 
 ## Sublime
 
 * User packages
-    ``` bash
+    ```bash
     $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
     ```
 * Installed Packages
-    ``` bash
+    ```bash
     $HOME/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages
     ```
 
@@ -137,10 +137,9 @@ sudo dseditgroup -o edit -a $username_to_add -t user admin
 sudo dseditgroup -o edit -a $username_to_add -t user wheel
 ```
 
+## Clean space listed as hidden in DaisyDisk
 
-# Clean space listed as hidden in DaisyDisk
-
-## Remove local snapshots
-```bash
-sudo tmutil listlocalsnapshotdates | tail -n1 | xargs tmutil deletelocalsnapshots
-```
+*  Remove local snapshots
+   ```bash
+   sudo tmutil listlocalsnapshotdates | tail -n1 | xargs tmutil deletelocalsnapshots
+   ```
