@@ -29,7 +29,8 @@ GRANT ALL ON radius.* TO 'radius'@'192.168.1.1';
 ```
 
 # Understanding
-Use the [online exploratory tool](https://www.w3schools.com/sql/trysql.asp?filename=trysql_op_or) to try out simple SQL queries.
+Use the [online exploratory tool](https://www.w3schools.com/sql/trysql.asp?filename=trysql_op_or)
+to try out simple SQL queries.
 
 ## What is a Database
 
@@ -37,21 +38,3 @@ Use the [online exploratory tool](https://www.w3schools.com/sql/trysql.asp?filen
   It could be any structured collection of data. It normally has a searchable index.
 
 * A method for accessing and modifying data
-  
-
-
-  
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
