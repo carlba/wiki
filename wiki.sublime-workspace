@@ -1,0 +1,540 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"window",
+				"windowTitle"
+			],
+			[
+				"ar",
+				"alert"
+			],
+			[
+				"app",
+				"appName"
+			],
+			[
+				"new",
+				"newWindowLayout"
+			],
+			[
+				"Window",
+				"windowTitle"
+			],
+			[
+				"win",
+				"windowLayout"
+			],
+			[
+				"wind",
+				"windowLayout"
+			],
+			[
+				"S",
+				"Spotify"
+			],
+			[
+				"mo",
+				"monitor1"
+			],
+			[
+				"roles",
+				"roles_path"
+			],
+			[
+				"tmp",
+				"tmp_glob"
+			],
+			[
+				"ad",
+				"administrator"
+			],
+			[
+				"cron",
+				"crontab"
+			],
+			[
+				"in",
+				"install"
+			],
+			[
+				"re",
+				"resources"
+			],
+			[
+				"rab",
+				"rabbitmq-server"
+			]
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"git quic",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"quick",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git qi",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git quick comm",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git comm",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"git",
+				"Git: Quick Commit"
+			],
+			[
+				"git c",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"quick ",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"file comm",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"quick commit ",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"git ",
+				"Git: Quick Commit"
+			],
+			[
+				"terminal",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Open",
+				"Terminal: Open"
+			],
+			[
+				"packge",
+				"Package Control: Install Package"
+			],
+			[
+				"git commit",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"sync",
+				"Sync Settings: Upload"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"definit",
+				"Snippet: Constant Definition"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"line",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"simple",
+				"QuickSimplenote: Open list"
+			]
+		],
+		"width": 396.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"defaults write com.sublimetext.3 NSRequiresAquaSystemAppearance 0"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/cada/development/wiki/gitfs.md",
+		"/Users/cada/development/wiki/netbeans.md",
+		"/Users/cada/development/wiki/git.md",
+		"/Users/cada/Google Drive/Notes/Test.md",
+		"/Users/cada/.hammerspoon/init.lua",
+		"/Users/cada/development/wiki/sed.md",
+		"/Users/cada/development/wiki/docker.md",
+		"/Users/cada/development/wiki/flashback_routines.md",
+		"/Users/cada/development/wiki/HomePage.md",
+		"/Users/cada/development/wiki/wiki.sublime-project",
+		"/Users/cada/development/wiki/gmail.md",
+		"/Users/cada/development/wiki/servern.md",
+		"/Users/cada/development/wiki/new_note.md",
+		"/Users/cada/development/wiki/docker_tutorial.md",
+		"/Users/cada/development/wiki/optics.md",
+		"/Users/cada/Downloads/Root-R1.crt",
+		"/Users/cada/bsdev/passport/temp/root.pem",
+		"/Users/cada/bsdev/passport/temp/GSR2.crt",
+		"/Users/cada/Downloads/Smith Micro Histogram queries (3-29-2018) (1)",
+		"/Users/cada/bsdev/passport/temp/global_sign_root",
+		"/Users/cada/bsdev/passport/temp/test.pem",
+		"/Users/cada/bsdev/passport/temp/test.crt",
+		"/Users/cada/bsdev/passport/temp/leaf.pem",
+		"/Users/cada/development/wiki/ansible.md",
+		"/Users/cada/development/wiki/pycharm.md",
+		"/Users/cada/development/ansible-dotfiles/roles/common/tasks/main.yml",
+		"/Users/cada/development/ansible-dotfiles/roles/i3/tasks/main.yml",
+		"/Users/cada/development/ansible-dotfiles/macos.yml",
+		"/Users/cada/development/alfred-sublime-text/README.md",
+		"/Users/cada/Library/Application Support/Alfred 3/Workflow Data/net.deanishe.alfred-sublime-text-projects/settings.json",
+		"/Users/cada/Downloads/sublime-icon.svg",
+		"/Users/cada/Downloads/client_secret_360197804932-cuvm55vrmvccujrm5gbrvqr9e26t7jmh.apps.googleusercontent.com.json",
+		"/Users/cada/development/ansible-dotfiles/ansibly.py",
+		"/Users/cada/.config/syncify/development_personal/ansible-dotfiles/ansible-dotfiles.sublime-project",
+		"/Users/cada/bsdev/passport/passport.sublime-project",
+		"/Users/cada/development/syncify/syncify/core.py",
+		"/Users/cada/bsdev/firebase/index.html",
+		"/Users/cada/bsdev/sto-deployment-server/index.html",
+		"/Users/cada/bsdev/sto-deployment-server/ems.sublime-project",
+		"/Users/cada/bsdev/sto-deployment-server/resources/ansible/roles/sprint-customizations/tasks/main.yml",
+		"/Users/cada/bsdev/sto-deployment-server/config-noreplace/etc/nginx/conf.d/ems.conf.dist",
+		"/Users/cada/bsdev/sto-deployment-server/src/README",
+		"/Users/cada/bsdev/sto-deployment-server/resources/ansible/README.md",
+		"/Users/cada/bsdev/sto-deployment-server/resources/ansible/roles/sprint-customizations/defaults/main.yml",
+		"/Users/cada/bsdev/sto-deployment-server/Vagrantfile",
+		"/Users/cada/bsdev/sto-deployment-server/resources/ansible/playbook.yml",
+		"/Users/cada/.phoenix.js",
+		"/Users/cada/bsdev/sto-deployment-server/resources/ansible/roles/sprint-customizations/handlers/main.yml",
+		"/Users/cada/bsdev/sto-deployment-server/resources/ansible/roles/sprint-customizations/templates/pyems_profile.j2",
+		"/Users/cada/bsdev/sto-deployment-server/resources/ansible/roles/ems-server/tasks/main.yml",
+		"/Users/cada/bsdev/sto-deployment-server/src/webroot/admin/manage_releases.php",
+		"/Users/cada/bsdev/sto-deployment-server/src/classes/Software.php",
+		"/Users/cada/bsdev/sto-deployment-server/src/classes/Groups.php",
+		"/Users/cada/bsdev/sto-deployment-server/src/classes/Update.php",
+		"/Users/cada/bsdev/sto-deployment-server/ems_dump_light.sql",
+		"/Users/cada/bsdev/sto-deployment-server/resources/ansible/roles/pyems-server/tasks/main.yml",
+		"/Users/cada/bsdev/sto-deployment-server/resources/ansible/roles/rabbitmq-server/defaults/main.yml",
+		"/Users/cada/development/lime-machine/docker-compose.yml",
+		"/Users/cada/bsdev/sto-deployment-server/resources/ansible/production.ini",
+		"/Users/cada/bsdev/sto-deployment-server/resources/ansible/roles/rabbitmq-server/tasks/main.yml",
+		"/Users/cada/bsdev/sto-deployment-server/resources/ansible/roles/rabbitmq-server/handlers/main.yml",
+		"/Users/cada/bsdev/sto-deployment-server/resources/ansible/roles/pyems-server/handlers/main.yml",
+		"/Users/cada/bsdev/sto-deployment-server/resources/ansible/roles/tweaks/tasks/main.yml",
+		"/Users/cada/bsdev/sto-deployment-server/system/etc/logrotate.d/dms",
+		"/Users/cada/bsdev/sto-deployment-server/.gitignore",
+		"/Users/cada/bsdev/sto-deployment-server/pyEMS/setup/main.sh",
+		"/Users/cada/bsdev/sto-deployment-server/pyEMS/src/pyems/tools/verifyinstall.py",
+		"/Users/cada/bsdev/sto-deployment-server/src/db/structure/db_01_017_dms_log_solicits.sql",
+		"/Users/cada/bsdev/sto-deployment-server/pyEMS/src/config/pyemsfe.ini",
+		"/Users/cada/bsdev/sto-deployment-server/pyEMS/builddeploy.sh",
+		"/Users/cada/bsdev/sto-deployment-server/pyEMS/setup/deps/rabbitmqadmin.py",
+		"/Users/cada/bsdev/sto-deployment-server/resources/ansible/roles/ems-server/defaults/main.yml",
+		"/Users/cada/bsdev/sto-deployment-server/ansible.cfg",
+		"/Users/cada/bsdev/sto-deployment-server/resources/ansible/ansible.cfg",
+		"/Users/cada/bsdev/sto-deployment-server/resources/ansible/requirements.yml",
+		"/Applications/GearWatchDesigner/GearWatchDesigner.app/Contents/Eclipse/configuration/1516795141353.log",
+		"/Applications/GearWatchDesigner/GearWatchDesigner.app/Contents/Eclipse/configuration/1516795141353.log.",
+		"/Applications/Google Chrome.app/Contents/Info.plist",
+		"/Users/cada/node_modules/emailjs-mime-parser/dist/test",
+		"/Users/cada/development/servern/docker/media-server/docker-compose.yml",
+		"/Users/cada/development/servern/sftp-config.json",
+		"/Users/cada/development/ansible-dotfiles/roles/franz/tasks/main.yml",
+		"/Users/cada/development/ansible-dotfiles/roles/vim/tasks/rhel.yml",
+		"/Users/cada/development/ansible-dotfiles/roles/franz/playbook.yml",
+		"/Users/cada/development/ansible-dotfiles/roles/franz/meta/main.yml",
+		"/Users/cada/development/ansible-dotfiles/roles/sublime/tasks/main.yml",
+		"/Users/cada/development/ansible-dotfiles/roles/franz/Vagrantfile",
+		"/System/Library/Frameworks/TWAIN.framework/Versions/A/Headers/TWAIN.h",
+		"/Users/cada/development/ansible-dotfiles/roles/common/tasks/arch.yml",
+		"/Users/cada/.bashrc",
+		"/Users/cada/development/ansible-dotfiles/test.json",
+		"/Users/cada/Downloads/akbr_nk.pub",
+		"/Users/cada/development/ansible-dotfiles/roles/spotify/tasks/main.yml",
+		"/Users/cada/development/ansible-dotfiles/roles/common/tasks/macos.yml",
+		"/Users/cada/development/ansible-dotfiles/dotfiles.yml",
+		"/Users/cada/development/ansible-dotfiles/common.yml",
+		"/Users/cada/development/ansible-dotfiles/roles/chrome/tasks/macos.yml",
+		"/Users/cada/development/ansible-dotfiles/roles/common/tasks/ubuntu.yml",
+		"/Users/cada/development/ansible-dotfiles/roles/vim/tasks/main.yml",
+		"/Users/cada/development/ansible-dotfiles/roles/vim/defaults/main.yml",
+		"/Users/cada/development/ansible-dotfiles/roles/common/defaults/main.yml",
+		"/Users/cada/development/ansible-dotfiles/roles/dropbox/defaults/main.yml",
+		"/Users/cada/.vault_pass.txt",
+		"/Users/cada/Library/Application Support/Sublime Text 3/Packages/QuickSimplenote/temp/ passport (1840f761-3727-4aa1-a715-26a4eaa473e2)",
+		"/Users/cada/Library/Application Support/JetBrains/Toolbox/apps/Support/JetBrains/Toolbox/apps/PyCharm-P/ch-0/173.3727.137/PyC│",
+		"/Users/cada/Library/Application Support/JetBrains/Toolbox/apps/PyCharm-P/ch-0/172.3968.37/PyCharm.app/Contents/helpers/pycharm/_jb_runner_tools.py",
+		"/Users/cada/development/ansible-dotfiles/roles/chrome/tasks/main.yml",
+		"/Users/cada/Library/Application",
+		"/Users/cada/Library/Application Support/JetBrains/Toolbox/apps/Support/JetBrains/Toolbox/apps/PyCharm-P/ch-0/173.3727.137/PyCharm.app/Contents/helpers/pycharm/_jb_runner_tools.py.rej",
+		"/Users/cada/_jb_runner_tools_fix.patch",
+		"/Users/cada/Library/Application Support/JetBrains/Toolbox/apps/PyCharm-P/ch-0/173.3727.137/PyCharm.app/Contents/helpers/pycharm/_jb_runner_tools.py.rej",
+		"/Users/cada/Library/Application Support/JetBrains/Toolbox/apps/PyCharm-P/ch-0/173.3727.137/PyCharm.app/Contents/helpers/pycharm/_jb_runner_tools.py",
+		"/Users/cada/.tmux.conf"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"FlaskForm",
+			"docker"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 64.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 451.0
+	},
+	"output.git-pull":
+	{
+		"height": 138.0
+	},
+	"output.git-push":
+	{
+		"height": 138.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"serv",
+				"servern.md"
+			],
+			[
+				"anis",
+				"ansible.md"
+			],
+			[
+				"hass",
+				"hassio.md"
+			],
+			[
+				"servern",
+				"servern.md"
+			],
+			[
+				"optics",
+				"optics.md"
+			],
+			[
+				"",
+				"resources/ansible/playbook.yml"
+			],
+			[
+				"read",
+				"src/README"
+			],
+			[
+				"pla",
+				"resources/ansible/playbook.yml"
+			],
+			[
+				"vag",
+				"Vagrantfile"
+			],
+			[
+				"pl",
+				"resources/ansible/playbook.yml"
+			],
+			[
+				"manage",
+				"src/webroot/admin/manage_releases.php"
+			],
+			[
+				"play",
+				"resources/ansible/playbook.yml"
+			],
+			[
+				"veri",
+				"pyEMS/src/pyems/tools/verifyinstall.py"
+			],
+			[
+				"verify",
+				"pyEMS/src/pyems/tools/verifyinstall.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 208.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 574.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 278.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

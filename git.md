@@ -1,22 +1,15 @@
-# Description
 # Configuration
-
 ## Set username and email
-
-### Globally
 ```bash
+# Globally
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
-```
-
-### Repo specific
-```bash
+# In Repo
 git config user.name "John Doe"
 git config user.email johndoe@example.com
 ```
 
 # Usage
-
 ## Remove commits (Keep changes)
 ```bash
 git reset --soft HEAD~3
@@ -29,12 +22,12 @@ git reset --hard HEAD~3
 
 ## Unstage file
 ```bash
-git reset
+git reset <filename>
 ```
 
-## Stash currently modified files
+## Working with stash
 ```bash
-git stash
+git stash && git unstash
 ```
 
 ## Merge to parent branch
@@ -63,10 +56,6 @@ git commit --author "Carl Backström <carl.backstrom@smithmicro.com>"
 git checkout HEAD <my-file.txt>
 ```
 
-```
-git checkout -- <my-file.txt>
-```
-
 ## Push tags
 
 ```bash
@@ -74,18 +63,19 @@ git push --tags
 ```
 
 ## Reword merge commit message.
-
 ```bash
 git commit --amend -m"<new message>"
 ```
+
 ## Clean up repo
 ```bash
 git gc --auto
-```
 
+```
 ## Change remote URL
 ```bash
 git remote set-url origin git@github.com:carlba/linuxconf.git
 ```
 
-# Customization
+## Information about how to dig throug git history
+https://jfire.io/blog/2012/03/07/code-archaeology-with-git/
