@@ -47,7 +47,7 @@ git branch -d the_local_branch
 
 ## Commit as a certain user
 ```bash
-git commit --author "Carl Backström <carl.backstrom@smithmicro.com>"
+git commit --author "Carl Bäckström <carl.backstrom@smithmicro.com>"
 ```
 
 ## Reset a specific file
@@ -77,5 +77,5 @@ git gc --auto
 git remote set-url origin git@github.com:carlba/linuxconf.git
 ```
 
-## Information about how to dig throug git history
+## Information about how to dig through git history
 https://jfire.io/blog/2012/03/07/code-archaeology-with-git/
