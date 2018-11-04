@@ -18,12 +18,8 @@
 | CTRL + Shift + J        | Smart line join                      |
 | CTRL + Enter            | Smart line split                     |
 | ALT + Enter             | Quick fix issue under marker         |
-
-
-| Key combination         | Meaning                              |
-|:------------------------|:-------------------------------------|
+| Shift + Command + 8     | Column Selection Mode                |
 | CMD + K                 | Commit to VCS.                       |
-
 
 ## Fix Skiptest error
 
