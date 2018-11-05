@@ -1,5 +1,6 @@
 # Configuration
 ## Set username and email
+
 ```bash
 # Globally
 git config --global user.name "John Doe"
@@ -40,7 +41,6 @@ git merge parent-branch
 Taken from: http://git-scm.com/docs/git-stash
 
 ## Delete branch
-
 ```
 git branch -d the_local_branch
 ```
@@ -51,7 +51,6 @@ git commit --author "Carl Bäckström <carl.backstrom@smithmicro.com>"
 ```
 
 ## Reset a specific file
-
 ```
 git checkout HEAD <my-file.txt>
 ```
@@ -69,9 +68,12 @@ git commit --amend -m"<new message>"
 
 ## Clean up repo
 ```bash
-git gc --auto
-
+git clean -xdf
 ```
+-x ignored files 
+-d recursive 
+-f force
+
 ## Change remote URL
 ```bash
 git remote set-url origin git@github.com:carlba/linuxconf.git
