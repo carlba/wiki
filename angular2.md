@@ -88,7 +88,7 @@ export class ServerElementComponent implements OnInit {
 
 ## Lifecyle
 When a component is created angular goes through some stages. We can hook into 
-these with differnt methods such as:
+these with different methods such as:
 
 ![Lifecycle hooks](lifecycle_hooks.png)
 
@@ -183,14 +183,14 @@ export class BetterHighlightDirective implements OnInit{
 </div>
 ```
 
-### Attributs vs Structural directives
+### Attributes vs Structural directives
 
-![Attributs vs Structural directives](att_vs_str.png)
+![Attributes vs Structural directives](att_vs_str.png)
 
 ## Services
 
 ---------------------------------------------------------------------------------------------------
- * Avoid code duplication and provide common datastorage to components in Angular.
+ * Avoid code duplication and provide common data storage to components in Angular.
 
 A service is just a TypeScript class, like so:
 
@@ -226,7 +226,7 @@ The service needs to be injected into a component by.
 
 
 #### App Wide Service
-If you want a service to be availible app wide make sure that it is only provided in the app
+If you want a service to be available app wide make sure that it is only provided in the app
 component but passed in the constructor of the other components. If it is provided in each of
 the components a new instance of the service will be created for each of the components.
 
@@ -303,9 +303,9 @@ this.ingredients.push(...ingredients);
 
 
       The content of the `routerLinkActive` will be added as a class on the element it is applied
-      to. In conjuction with bootstrap this makes the correct tab be selected. By the 
+      to. In conjunction with bootstrap this makes the correct tab be selected. By the 
       default angular sees a route as active if the current path contains the routerlink. The
-      `routerLinkActiveOptions` property allows us  to configure that behaviour.
+      `routerLinkActiveOptions` property allows us  to configure that behavior.
 
         ```typescript
         <ul class="nav nav-tabs">
