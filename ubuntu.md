@@ -10,3 +10,8 @@ nm-connection-editor
 ```bash
 sudo dpkg-reconfigure tzdata
 ```
+
+## List current version
+```bash
+lsb_release -a
+```
