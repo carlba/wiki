@@ -25,7 +25,7 @@
 
 _jb_runner_tools.py
 
-``` python
+```python
 class NewTeamcityServiceMessages(_old_service_messages):
     _latest_subtest_result = None
 
@@ -36,6 +36,14 @@ class NewTeamcityServiceMessages(_old_service_messages):
 ## Themes
 
 [Zenburn](https://github.com/darvin/JetBrains-ZenBurn)
+
+### Ruby Syntax Highlighting in PyCharm
+1. Enable `TextMate bundles support` plugin
+2. ```bash
+   git clone https://github.com/textmate/ruby.tmbundle ~/development
+   ```
+3. Goto 'Editor > TextMate Bundles` and add the bundle
+
 
 # Configuration
 
