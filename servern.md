@@ -15,12 +15,16 @@ sudo docker-compose up -d
 
 ## snapraid
 
-https://zackreed.me/setting-up-snapraid-on-ubuntu/
+[Setting Up SnapRAID on Ubuntu](https://zackreed.me/setting-up-snapraid-on-ubuntu/)
+[ArchLinux Wiki - SnapRAID](https://wiki.archlinux.org/index.php/SnapRAID)
 
+
+https://wiki.archlinux.org/index.php/SnapRAID
 ### Execute the snapraid sync script
 
 ```bash
-sudo docker exec -it mediaserver_snapraid_1 /usr/bin/python2.7 /app/snapraid-runner/snapraid-runner.py -c /config/snapraid-runner.conf
+sudo docker exec -it mediaserver_snapraid_1 /usr/bin/python2.7 \
+    /app/snapraid-runner/snapraid-runner.py -c /config/snapraid-runner.conf
 ```
 
 ### Execute a snapraid sync
@@ -28,30 +32,30 @@ sudo docker exec -it mediaserver_snapraid_1 /usr/bin/python2.7 /app/snapraid-run
 sudo docker exec -it mediaserver_snapraid_1 snapraid sync
 ```
 
+## FlexGet
+
 ### Execute Flexget with ``--discover-now``
 https://flexget.com/CLI
 
 ```bash
-sudo docker exec -it mediaserver_flexget_1 flexget -c /config/config.yml execute --discover-now
+sudo docker exec -it mediaserver_flexget_1 flexget -c /config/config.yml execute --discover-now --now
 ```
 
-### Flexget database reset
+### Reset The Database
 https://flexget.com/CLI
 
 ```bash
 sudo docker exec -it mediaserver_flexget_1 flexget -c /config/config.yml database reset --sure
 ```
 
-sudo docker exec -it mediaserver_flexget_1 flexget -c /config/config.yml execute --discover-now --tasks series_season_torrentleech
-
-### Flexget auth with trakt.tx
+### Auth with trakt.tv
 https://flexget.com/CLI
 
 ```bash
 sudo docker exec -it mediaserver_flexget_1 flexget -c /config/config.yml trakt auth carlba
 ```
 
-### Flexget sync with trakt.tv collection
+### Sync with Trakt.tv Collection
 https://flexget.com/CLI
 
 ```bash
