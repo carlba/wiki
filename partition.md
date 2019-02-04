@@ -3,7 +3,8 @@
 ## Create a properly aligned ``GPT`` partion
 
 ```bash
-sudo parted -a optimal /dev/sdh mkpart primary 0% 100%
+sudo parted -s /dev/sdX mklabel msdos
+sudo parted -a optimal /dev/sdX mkpart primary 0% 100%
 ```
 http://unix.stackexchange.com/questions/38164/create-partition-aligned-using-parted/49274
 

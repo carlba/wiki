@@ -31,6 +31,11 @@ git reset <filename>
 git stash && git unstash
 ```
 
+## Abort rebase
+```bash
+git rebase --abort
+```
+
 ## Merge to parent branch
 Checkout the feature branch
 
@@ -70,8 +75,8 @@ git commit --amend -m"<new message>"
 ```bash
 git clean -xdf
 ```
--x ignored files 
--d recursive 
+-x ignored files
+-d recursive
 -f force
 
 ## Change remote URL

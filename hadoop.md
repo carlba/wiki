@@ -1,23 +1,24 @@
-## What is hadoop
+## What is Hadoop
 
-Hadoop is a framwork for distribyted processing of large data sets across clusters of commodity computers.
+Hadoop is a framework for distributed processing of large data sets across clusters of commodity computers.
 
 
 It does so by
 
-* HDFS - Reliable Shared Storage 
-* MapReduce - Distrubuted Computation
+* HDFS - Reliable Shared Storage
+* MapReduce - Distributed Computation
 
 
 ## HDFS
 
-Hadoop Distrubuted Filesystem
+Hadoop Distributed File system
 
 [a relative link](Working-With-Hdfs.txt)
 
 ```
 /**************Hadoop In Real World**************/
-Hadoop In Real World *** http://www.hadoopinrealworld.com
+Hadoop In Real World ***
+http://www.hadoopinrealworld.com
 HDFS - Working With HDFS
 /**************Hadoop In Real World**************/
 
@@ -85,11 +86,11 @@ hadoop fs -chmod 777 hadoop-test2/test_with_rep2.csv
 
 ### FILE SYSTEM CHECK - REQUIRES ADMIN PREVILEGES ###
 
-sudo -u hdfs hdfs fsck /user/hirwuser150430/hadoop-test2 -files -blocks -locations 
+sudo -u hdfs hdfs fsck /user/hirwuser150430/hadoop-test2 -files -blocks -locations
 
-sudo -u hdfs hdfs fsck /user/hirwuser150430/hadoop-test3 -files -blocks -locations 
+sudo -u hdfs hdfs fsck /user/hirwuser150430/hadoop-test3 -files -blocks -locations
 
-sudo -u hdfs hdfs fsck /user/ubuntu/input/yelp/yelp_academic_dataset_review.json -files -blocks -locations 
+sudo -u hdfs hdfs fsck /user/ubuntu/input/yelp/yelp_academic_dataset_review.json -files -blocks -locations
 
 vi /etc/hadoop/conf/hdfs-site.xml
 
@@ -109,14 +110,21 @@ hadoop fs -rm -r hadoop-test3
 
 The configuration for the name node is stored in /etc/hadoop/conf.
 
-* The /etc/hadoop/conf/core-site.xml contains information that is used by the entire cluser and is also replicated 
+* The /etc/hadoop/conf/core-site.xml contains information that is used by the entire cluster and is also replicated
   to all nodes within it
 
 ## Cluster
 
 Rack - Collection of nodes
 Cluster - Racks interconnected over network
-Datacenter - Physical location for a cluster.
+Data center - Physical location for a cluster.
 
 
 ## MapReduce
+https://mapr.com/blog/how-to-avoid-java-heap-space-errors-understanding-and-managing-task-attempt-memory/
+https://stackoverflow.com/questions/35742794/java-heap-space-error-while-executing-mapreduce
+
+## Check Cloudera version
+```bash
+
+```
