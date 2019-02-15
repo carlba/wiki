@@ -10,12 +10,9 @@ A relationshippy interface to hadoop.
 # The client
 jLogger accepts databases from clients on port 8080 and stores them into /usr/local/smithmicro/data
 
-/usr/local/smithmicro/data shared data folder for logger and agent
-
-
-
-/usr/local/smithmicro/data/archive - processed and converted to AVRO
-processed - processed into AVRO
+/usr/local/smithmicro/data shared      data folder for logger and agent
+/usr/local/smithmicro/data/archive     processed and converted to AVRO
+/usr/local/smithmicro/data/processed  processed into AVRO
 
 optics agent
 configuration: /usr/local/smithmicro/opticsagent
