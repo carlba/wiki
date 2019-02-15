@@ -23,37 +23,23 @@ HDFS /user/hadoop/analytics
 
 ### cronjob hadoop user
 hive-kicker.sh Restart optics agent if it suspended.
-
 healthCheck.sh monitor status of cluster
 
 
 
-smb://smsi-pgh-023.smsi.com/ISOs/RHEL/5.x
-
 
 ## RHEL 5.8
-
-
-Ask about data set
-
-Andy Stites - QA Lead
-
+smb://smsi-pgh-023.smsi.com/ISOs/RHEL/5.x
 
 https://bitbucket.smithmicro.net/projects/ANASP/repos/customer_deliverables/browse/Comcast%201.2%20Prod/scripts/System_Tools
-
-
 https://bitbucket.smithmicro.net/projects/ANASP/repos/analytics/browse/analytics_library/scripts/export_report.py
-
-
 (Issue with python dateutil)[https://projects.smithmicro.net/browse/ANASP-1801]
 
 
 ## Vagrant
 
 vagrant-rhel-5.8-minimal
-
 REMOVE PORT FORWARDING
-
 Added /sbin to bash.rc for shutdown command to work
 
 ## RHEL 5.8
@@ -68,9 +54,6 @@ smb://smsi-pgh-023/Analytics/_Repos/Redhat/analytics-redhat5.8-archives.tar.gz
 smb://smsi-pgh-023/Analytics/_Repos/Redhat/analytics-redhat5.8-archives.tar.gz
 
 cd ~/analytics_package/system_config/puppet/scripts
-
-
-
 jps -ml ps for java
 
 7966 org.apache.hadoop.mapred.JobTracker
@@ -117,12 +100,11 @@ curl -v "http://10.101.66.107:8080/events" /
 
 3. Tail the log file of jlogger to observe the events come on
 
-    ``` bash
-    tail -f /usr/local/smithmicro/data/events.log
-    ```
+``` bash
+tail -f /usr/local/smithmicro/data/events.log
+```
 
-
-Make sure the authuires keys have correct permissions
+Make sure the authorized keys have correct permissions
 
 # Install optics agent
 
