@@ -21,9 +21,9 @@
 
 ## Select all
 
-``` bash    
+``` bash
 jq '.'
-```    
+```
 
 ## Select in nested json structure
 
@@ -31,7 +31,7 @@ jq '.'
 jq '.request_statistics
 ```
 
-Results in:  
+Results in:
 ```json
 "headers": {
     "user-agent": "curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.14.0.0 zlib/1.2.3 libidn/1.18 libssh2/1.4.2",

@@ -1,6 +1,7 @@
 # Hadoop
 
-We use cloudera which is a packaged distrubution of hadoop. It was the first company that did a packaged disturubtion.
+We use Cloudera which is a packaged distribution of hadoop. It was the first company that did a
+packaged distribution.
 
 # Apache Hive
 
@@ -15,8 +16,8 @@ jLogger accepts databases from clients on port 8080 and stores them into /usr/lo
 
 
 
-archive - procecssed and converted to AVRO
-processed - proccessed into AVRO
+archive - processed and converted to AVRO
+processed - processed into AVRO
 
 optics agent
 configuration: /usr/local/smithmicro/opticsagent
@@ -37,12 +38,12 @@ healthCheck.sh monitor status of cluster
 smb://smsi-pgh-023.smsi.com/ISOs/RHEL/5.x
 
 
-## Rhel 5.8
+## RHEL 5.8
 
 
 Ask about data set
 
-Andy stites - QA Lead
+Andy Stites - QA Lead
 
 
 https://bitbucket.smithmicro.net/projects/ANASP/repos/customer_deliverables/browse/Comcast%201.2%20Prod/scripts/System_Tools
@@ -60,11 +61,11 @@ vagrant-rhel-5.8-minimal
 
 REMOVE PORT FORWARDING
 
-Added /sbin to bashrc for shutdown command to work
+Added /sbin to bash.rc for shutdown command to work
 
 ## RHEL 5.8
 
-Memory for VM: minimum 4 16 prefered
+Memory for VM: minimum 4 16 preferred
 
 
 * Download the installer
@@ -88,14 +89,14 @@ jps -ml ps for java
 8489 org.apache.hadoop.util.RunJar /usr/lib/hive/lib/hive-service-0.7.1-cdh3u3.jar org.apache.hadoop.hive.service.HiveServer
 
 
-drwxr-xr-x   4 root root  4096 May  8 13:40 hadoop-default is the default haddop dir
+drwxr-xr-x   4 root root  4096 May  8 13:40 hadoop-default is the default haddop directory
 
 drwxr-xr-x 3 root   root   4096 May  8 13:40 dfs
 drwxr-xr-x 7 mapred hadoop 4096 May  8 13:44 mapred
 
-turn of iptables and selinux
+turn of iptables and SELinux
 
-Install python dateuitl https://projects.smithmicro.net/browse/ANASP-1627
+Install python-dateutil https://projects.smithmicro.net/browse/ANASP-1627
 rpm -i python26-dateutil-1.4.1-6.rhel5.noarch.rpm
 
 jlogger preferences
@@ -121,7 +122,7 @@ curl -v "http://10.101.66.107:8080/events" /
     -d "v=v1.0.0.0&g=aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee&t=80f07b369a682aa32c5ed428b227b2503ffc5b08a822823e00959b9b3c1ea2310e1c42acfc6e9019856764de854fd4b7ab602d0d8582f699" -d 'data=[ 1, "2010-04-16 16:29:26", "DEV-SAMPLE", "1.2.3.4", "111-222-333-444-555", "FavoriteFood", { "Drink": "Tobasco", "Spicy": true } ]' 
 ```
 
-3. Tail the logfile of jlogger to observce the events come on
+3. Tail the log file of jlogger to observe the events come on
 
     ``` bash
     tail -f /usr/local/smithmicro/data/events.log
@@ -141,7 +142,7 @@ OpticsAgent events location? [/usr/local/smithmicro/data]:
 
 Add hadoop user to visudo
 
-jlooger rotates data every hour
+jlogger rotates data every hour
 
 optics agent only looks for events.log.*
 
@@ -149,7 +150,7 @@ tail -f /usr/local/smithmicro/opticsAgent/logs/opticsAgent.log
 
 # Monitor hadoop progress
 
-http://10.101.66.107:50030/jobtracker.jsp See mapreduce jobs Most important one
+http://10.101.66.107:50030/jobtracker.jsp See map reduce jobs Most important one
 http://10.101.66.107:50070/dfshealth.jsp
 http://10.101.66.107:50070/dfsnodelist.jsp?whatNodes=LIVE
 http://10.101.66.107:50030/machines.jsp?type=active
@@ -171,11 +172,14 @@ sudo vi /etc/hadoop/conf/mapred-site.xml
 sudo service hadoop-0.20-tasktracker restart
 sudo service hadoop-0.20-namenode restart
 
-
-##
-
 ## Hive log file
 
 /var/log/hive/hive-thrift.log
 /tmp/hadoop/hive.log
-md
+
+https://teams.microsoft.com/_#/docx/viewer/recent/https%3A~2F~2Fsmithmicro.sharepoint.com~2Fsites~2Fdevandroid~2FShared%2520Documents~2FGeneral~2FEngineering%2520Projects~2FNetwise%2520Optics~2FMaster%2520Data%2520Dictionary~2FAnalyticsDataDictionary.docx?fileId=cc6d68fa-44fe-45bf-94e1-146db02e0df1&ctx=recent&viewerAction=view
+
+
+
+
+

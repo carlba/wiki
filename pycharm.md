@@ -2,6 +2,23 @@
 
 # Usage
 
+## Log
+
+* MacOS
+
+  ```bash
+    tail -f /Users/cada/Library/Logs/PyCharm2018.3/idea.log
+  ```
+
+## Tweaks
+
+I noticed weird terminal behavior and was able to fix that by setting
+
+`-Dconsole.encoding=UTF-8` in `On the Help menu, click Edit Custom VM Options.`
+(Configuring Output Encoding)[https://www.jetbrains.com/help/pycharm/configuring-output-encoding.html]
+
+
+
 ## Keyboard shortcuts
 
 | Key combination         | Meaning                              |
@@ -42,8 +59,7 @@ class NewTeamcityServiceMessages(_old_service_messages):
 2. ```bash
    git clone https://github.com/textmate/ruby.tmbundle ~/development
    ```
-3. Goto 'Editor > TextMate Bundles` and add the bundle
-
+3. Goto `Editor > TextMate Bundles` and add the bundle
 
 # Configuration
 
