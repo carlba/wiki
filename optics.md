@@ -15,15 +15,13 @@ jLogger accepts databases from clients on port 8080 and stores them into /usr/lo
 /usr/local/smithmicro/data/processed  processed into AVRO
 
 ## opticsagent
+
 configuration: /usr/local/smithmicro/opticsagent
-
 schema: /usr/local/smithmicro/opticsagent
-
-
 HDFS /user/hadoop/analytics
 
 
-cronjob hadoop user
+### cronjob hadoop user
 hive-kicker.sh Restart optics agent if it suspended.
 
 healthCheck.sh monitor status of cluster
