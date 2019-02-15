@@ -25,9 +25,6 @@ HDFS /user/hadoop/analytics
 hive-kicker.sh Restart optics agent if it suspended.
 healthCheck.sh monitor status of cluster
 
-
-
-
 ## RHEL 5.8
 smb://smsi-pgh-023.smsi.com/ISOs/RHEL/5.x
 
