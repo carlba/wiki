@@ -25,6 +25,9 @@ HDFS /user/hadoop/analytics
 hive-kicker.sh Restart optics agent if it suspended.
 healthCheck.sh monitor status of cluster
 
+
+
+
 ## RHEL 5.8
 smb://smsi-pgh-023.smsi.com/ISOs/RHEL/5.x
 
@@ -101,16 +104,14 @@ curl -v "http://10.101.66.107:8080/events" /
 tail -f /usr/local/smithmicro/data/events.log
 ```
 
-Make sure the authorized keys have correct permissions
-
-# Install optics agent
+## Install optics agent
 
 The following settings will be applied to: 'opticsagent' installations on carl-optics.smithmicro.net.
 Cluster/Customer Name? [analytics]:
 OpticsAgent installation location? [/usr/local/smithmicro]:
 OpticsAgent events location? [/usr/local/smithmicro/data]:
-### Initiating Puppet: analytics_bundle::production::opticsagent - Version::1.2.0.126
 
+### Initiating Puppet: analytics_bundle::production::opticsagent - Version::1.2.0.126
 
 Add hadoop user to visudo
 
@@ -120,7 +121,7 @@ optics agent only looks for events.log.*
 
 tail -f /usr/local/smithmicro/opticsAgent/logs/opticsAgent.log
 
-# Monitor hadoop progress
+## Monitor hadoop progress
 
 http://10.101.66.107:50030/jobtracker.jsp See map reduce jobs Most important one
 http://10.101.66.107:50070/dfshealth.jsp
