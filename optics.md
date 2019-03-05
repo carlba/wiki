@@ -1,61 +1,51 @@
-# Hadoop
+# Optics
+
+## Hadoop
 
 We use Cloudera which is a packaged distribution of hadoop. It was the first company that did a
 packaged distribution.
 
-## Apache Hive
+### Apache Hive
 
 A relationshippy interface to hadoop.
 
 ## The client
+
 jLogger accepts databases from clients on port 8080 and stores them into /usr/local/smithmicro/data
 
 /usr/local/smithmicro/data shared      data folder for logger and agent
 /usr/local/smithmicro/data/archive     processed and converted to AVRO
 /usr/local/smithmicro/data/processed  processed into AVRO
 
-## opticsagent
+### opticsagent
 
 configuration: /usr/local/smithmicro/opticsagent
 schema: /usr/local/smithmicro/opticsagent
 HDFS /user/hadoop/analytics
 
+#### cronjob hadoop user
 
-### cronjob hadoop user
 hive-kicker.sh Restart optics agent if it suspended.
 healthCheck.sh monitor status of cluster
 
+### RHEL 5.8
 
+Memory for VM: minimum 4 16 preferred
 
-
-## RHEL 5.8
 smb://smsi-pgh-023.smsi.com/ISOs/RHEL/5.x
 
 https://bitbucket.smithmicro.net/projects/ANASP/repos/customer_deliverables/browse/Comcast%201.2%20Prod/scripts/System_Tools
 https://bitbucket.smithmicro.net/projects/ANASP/repos/analytics/browse/analytics_library/scripts/export_report.py
-(Issue with python dateutil)[https://projects.smithmicro.net/browse/ANASP-1801]
+[Issue with python dateutil](https://projects.smithmicro.net/browse/ANASP-1801)
 
-
-## Vagrant
-
-vagrant-rhel-5.8-minimal
-REMOVE PORT FORWARDING
-Added /sbin to bash.rc for shutdown command to work
-
-## RHEL 5.8
-
-Memory for VM: minimum 4 16 preferred
-
-
-* Download the installer
+1. Download the installer
+smb://smsi-pgh-023/Analytics/_Repos/Redhat/analytics-redhat5.8-archives.tar.gz
+2. Download the repo
 smb://smsi-pgh-023/Analytics/_Repos/Redhat/analytics-redhat5.8-archives.tar.gz
 
-* Download the repo
-smb://smsi-pgh-023/Analytics/_Repos/Redhat/analytics-redhat5.8-archives.tar.gz
-
+```bash
 cd ~/analytics_package/system_config/puppet/scripts
 jps -ml ps for java
-
 7966 org.apache.hadoop.mapred.JobTracker
 9164 sun.tools.jps.Jps -ml
 7513 org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
@@ -63,14 +53,9 @@ jps -ml ps for java
 7734 org.apache.hadoop.hdfs.server.datanode.DataNode
 5774 org.apache.hadoop.hdfs.server.namenode.NameNode
 8489 org.apache.hadoop.util.RunJar /usr/lib/hive/lib/hive-service-0.7.1-cdh3u3.jar org.apache.hadoop.hive.service.HiveServer
+```
 
-
-drwxr-xr-x   4 root root  4096 May  8 13:40 hadoop-default is the default haddop directory
-
-drwxr-xr-x 3 root   root   4096 May  8 13:40 dfs
-drwxr-xr-x 7 mapred hadoop 4096 May  8 13:44 mapred
-
-turn of iptables and SELinux
+* turn of iptables and SELinux
 
 Install python-dateutil https://projects.smithmicro.net/browse/ANASP-1627
 rpm -i python26-dateutil-1.4.1-6.rhel5.noarch.rpm
@@ -85,6 +70,12 @@ Logger 'POST' Port Number? [8080]:
 Logger 'Admin' Port Number? [9080]:
 Logger Tomcat OPTS? [-Xms1024m -Xmx2048m]: -Xms256m -Xmx512m
 
+
+## Vagrant
+
+vagrant-rhel-5.8-minimal
+REMOVE PORT FORWARDING
+Added /sbin to bash.rc for shutdown command to work
 
 ## Test to send event
 
@@ -128,19 +119,20 @@ http://10.101.66.107:50070/dfshealth.jsp
 http://10.101.66.107:50070/dfsnodelist.jsp?whatNodes=LIVE
 http://10.101.66.107:50030/machines.jsp?type=active
 http://10.101.66.107:50090/status.jsp
-
-
 sudo vi /etc/hadoop/conf/hadoop-env.sh
+
 export HADOOP_HEAPSIZE=1024
 
 sudo vi /etc/hadoop/conf/mapred-site.xml
 
-<!-- See: https://issues.apache.org/jira/browse/MAPREDUCE-478 -->
+See: https://issues.apache.org/jira/browse/MAPREDUCE-478
+
+```xml
 <property>
   <name>mapred.reduce.child.java.opts</name>
   <value>-Xmx512M</value>
 </property>
-
+```
 
 sudo service hadoop-0.20-tasktracker restart
 sudo service hadoop-0.20-namenode restart
@@ -151,8 +143,3 @@ sudo service hadoop-0.20-namenode restart
 /tmp/hadoop/hive.log
 
 https://teams.microsoft.com/_#/docx/viewer/recent/https%3A~2F~2Fsmithmicro.sharepoint.com~2Fsites~2Fdevandroid~2FShared%2520Documents~2FGeneral~2FEngineering%2520Projects~2FNetwise%2520Optics~2FMaster%2520Data%2520Dictionary~2FAnalyticsDataDictionary.docx?fileId=cc6d68fa-44fe-45bf-94e1-146db02e0df1&ctx=recent&viewerAction=view
-
-
-
-
-

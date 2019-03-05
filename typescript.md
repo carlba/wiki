@@ -1,3 +1,5 @@
+# Typescript
+
 ## General
 
 http://www.typescriptlang.org/docs/home.html
@@ -5,11 +7,11 @@ http://www.typescriptlang.org/docs/home.html
 ## Type declarationd
 
 * Define a variable as a string
-    
+
     ``` typescript
     let myString: string
     ```
-    
+
 * Other types
 
     ``` typescript
@@ -18,15 +20,14 @@ http://www.typescriptlang.org/docs/home.html
     let myArray: Array<string>:
     let anything: any;
     ```
-    
-* This is also infered if you assign a variable as a string
-  
+
+* This is also infered if you assign a variable as a string  
+
     ``` typescript
     let myString = 'This is my string'
     ```
-    
+
     The type is only infered if a value is set to the varible at declaration.
-    
 
 ## Classes
 
@@ -37,7 +38,7 @@ http://www.typescriptlang.org/docs/home.html
          return 'android';
       }
     ```
-    
+
 ## Interfaces
 
 * Declare interface
@@ -49,8 +50,5 @@ http://www.typescriptlang.org/docs/home.html
         confirmPassword?: string
     }
     ```
-    
+
     The questionmark indicates an optional property
-
-    
-

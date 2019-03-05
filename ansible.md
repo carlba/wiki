@@ -1,7 +1,9 @@
+# Ansible
+
 ## Usage
 
 ### Always use synchronize instead of copy for large files or folders
-    
+
 ```yaml
 ---
 synchronize:
@@ -11,6 +13,7 @@ synchronize:
 ```
 
 ### Ensure that a package is upgraded with pip
+
 ```yaml
 ---
 - name: Install python package <package_name>

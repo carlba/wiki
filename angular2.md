@@ -1,3 +1,5 @@
+# Angular
+
 ## Angular CLI
 
 ---
@@ -10,23 +12,25 @@
 ---
 
 ## Create component
+
 ``` bash
 ng generate component [name]
 ```
 
 ## Interactivity
+
 $event Use to pass the event to the type scriptd
-    
-
-
 
 ## Angular tutorial
+
 Boost Devices copy
+
 ### Keyboard shortcuts
 
 * QA section - q
 
 ### Two-Way-Binding
+
 Links a form element to a variable both ways.
 
 ```javascript
@@ -38,11 +42,12 @@ Links a form element to a variable both ways.
 
 >You then also need to add the import from @angular/forms  in the >app.module.ts file:
 
->import { FormsModule } from '@angular/forms'; 
+>import { FormsModule } from '@angular/forms';
 
 
 ### Directives
-![What is this](directives.png)
+
+![What is this](images/directives.png)
 
 ### ngIf
 
@@ -90,7 +95,7 @@ export class ServerElementComponent implements OnInit {
 When a component is created angular goes through some stages. We can hook into 
 these with different methods such as:
 
-![Lifecycle hooks](lifecycle_hooks.png)
+![Lifecycle hooks](images/lifecycle_hooks.png)
 
 
 ## Directives
@@ -185,11 +190,10 @@ export class BetterHighlightDirective implements OnInit{
 
 ### Attributes vs Structural directives
 
-![Attributes vs Structural directives](att_vs_str.png)
+![Attributes vs Structural directives](images/att_vs_str.png)
 
 ## Services
 
----------------------------------------------------------------------------------------------------
  * Avoid code duplication and provide common data storage to components in Angular.
 
 A service is just a TypeScript class, like so:
@@ -203,25 +207,27 @@ export class LoggingService {
 ```
 
 ### Injecting service into components
+
 The service needs to be injected into a component by.
 
 * Adding it as a provider
-    
-    ```typescript
-    @Component({
-      selector: 'app-new-account',
-      templateUrl: './new-account.component.html',
-      styleUrls: ['./new-account.component.css'],
-      providers: [LoggingService]
-    })
-    ```
+
+```typescript
+ @Component({
+   selector: 'app-new-account',
+   templateUrl: './new-account.component.html',
+   styleUrls: ['./new-account.component.css'],
+   providers: [LoggingService]
+ })
+ ```
+
 * Passing it into the constructor
 
-    ```typescript
-    constructor(private loggingService: LoggingService) {}
-    ```
+```typescript
+constructor(private loggingService: LoggingService) {}
+```
 
-### Hierarchical Injector
+# Hierarchical Injector
 ![Hierarchical Injector](hierarchical_injector.png)
 
 
@@ -257,7 +263,7 @@ this.ingredients.push(...ingredients);
 
     ```typescript
     import {RouterModule, Routes} from '@angular/router';
-    
+
     const appRoutes: Routes = [
       { path: '', component: HomeComponent },
       { path: 'users', component: UsersComponent },
@@ -287,13 +293,13 @@ this.ingredients.push(...ingredients);
 * Use routes
 
     * In a template add:
-    
-        ```html
-        <router-outlet></router-outlet>
-        ```
-    
+
+      ```html
+      <router-outlet></router-outlet>
+      ```
+
     * Links
-    
+
         ```html
         <li role="presentation" class="active"><a routerLink="/">Home</a></li>
         <li role="presentation"><a routerLink="/servers">Servers</a></li>
@@ -320,23 +326,23 @@ this.ingredients.push(...ingredients);
     * Use the router in a component
       It is possible to inject the router and navigate using the `this.router.navigate`
       method.
-      
+
         ```typescript
         export class HomeComponent implements OnInit {
-        
+
           constructor(private router: Router) { }
-        
+
           onLoadServers() {
             // complex calculation
             this.router.navigate(['/servers']);
           }
         }
-        ```      
-        
+        ```
+
 ---------------------------------------------------------------------------------------------------
 
-        
 ## Using Javascript libraries in TypeScript/Angular2 app
+
 https://netbasal.com/using-3rd-party-library-inside-angular2-c06b7675d3a
 
 ## Testing

@@ -1,4 +1,4 @@
-Fördelen med att byta det oficiella spraket i Sverige till Engelska
+# Fördelen med att byta det oficiella spraket i Sverige till Engelska
 
 * Integrationen kommer avsevärt förenklas då många av invandrarna redan kan engelska. Även om deras
   kunskaper är begränsade så är det lättare att bygga vidare på det än att lära sig ett helt nytt

@@ -17,8 +17,6 @@ I noticed weird terminal behavior and was able to fix that by setting
 `-Dconsole.encoding=UTF-8` in `On the Help menu, click Edit Custom VM Options.`
 (Configuring Output Encoding)[https://www.jetbrains.com/help/pycharm/configuring-output-encoding.html]
 
-
-
 ## Keyboard shortcuts
 
 | Key combination         | Meaning                              |
@@ -37,6 +35,8 @@ I noticed weird terminal behavior and was able to fix that by setting
 | ALT + Enter             | Quick fix issue under marker         |
 | Shift + Command + 8     | Column Selection Mode                |
 | CMD + K                 | Commit to VCS.                       |
+| CTRL + G.               | Select next occurrence               |
+| CTRL + CMD + G          | Select all occurrences               |
 
 ## Fix Skiptest error
 
