@@ -7,8 +7,13 @@ docker rm -f CONTAINER_ID
 ```
 
 ## Remove all unused local volumes
-https://docs.docker.com/engine/reference/commandline/volume_prune
+
+[volume prune](https://docs.docker.com/engine/reference/commandline/volume_prune)
+
+## MacOS debacle
 
 ```bash
-docker volume prune
+rm -rf ~/Library/Containers/com.docker.docker/Data/vms/0/data/*
 ```
+
+~/Library/Containers/com.docker.docker/Data/vms/0/data

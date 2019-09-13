@@ -3,5 +3,7 @@
 ## Change DPI
 
 ``` bash
-adb shell wm density 440
+adb shell wm density <DPI>
 ```
+
+Samsung Galaxy 10 Plus: 380

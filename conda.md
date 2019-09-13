@@ -5,5 +5,5 @@
 ### Create a New Environment
 
 ```bash
-conda create -n jupyter python=3.6 anaconda
+conda create -n jupyter python=3.6
 ```

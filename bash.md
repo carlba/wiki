@@ -1,6 +1,7 @@
 # Usage
 
 ## Print all command line arguments sent to a script from within it
+
 ```bash
 echo $@
 ```
@@ -33,6 +34,7 @@ echo $@
 ```
 
 ## Color codes
+
 https://wiki.archlinux.org/index.php/Color_Bash_Prompt
 
 ```bash

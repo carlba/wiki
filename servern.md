@@ -9,6 +9,7 @@
 ## Docker containers
 
 ### Upgrade containers
+
 ```bash
 cd /home/cada/docker/media-server
 sudo docker-compose kill

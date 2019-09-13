@@ -5,6 +5,7 @@
 ```bash
 sudo ln -s /usr/libexec/locate.updatedb /usr/local/bin/updatedb
 ```
+
 ### Autocomplete ssh hostnames
 
 ```bash
@@ -26,37 +27,38 @@ fi
 To make the Dock instantly leap back into view when it’s needed, rather than slide,
 open a Terminal window and type the following:
 
-```
+```bash
 defaults write com.apple.dock autohide-time-modifier -int 0;killall Dock
 ```
+
 I find this useful, but if you’d like the animation for the dock to reappear to last for a
 split-second, try the following:
 
-```
+```bash
 defaults write com.apple.dock autohide-time-modifier -float 0.15;killall Dock
 ```
 
 To revert back to the default sliding effect, open a Terminal window and type the following:
 
-```
+```bash
 defaults delete com.apple.dock autohide-time-modifier;killall Dock
 ```
 
 ## Dramatically Speed Up Window Resizing Animation Speed in Mac OS X
 
-```
+```bash
 defaults write -g NSWindowResizeTime -float 0.003
 ```
 
 ### Figure out ip address of interface
 
-``` bash
+```bash
 ifconfig |grep inet
 ```
 
 ## Clear local Time Machine snapshots
 
-``` bash
+```bash
 tmutil  listlocalsnapshotdates / |grep 20|while read f; do tmutil deletelocalsnapshots $f; done
 ```
 
@@ -69,13 +71,13 @@ http://learnaholic.me/2012/10/10/installing-nginx-in-mac-os-x-mountain-lion/
 
 * homebrew default nginx config
 
-    ```
+    ```bash
     /usr/local/etc/nginx/nginx.conf
     ```
 
 * homebrew default nginx log
 
-    ```
+    ```bash
     /usr/local/var/log/nginx/access.log
     ```
 
@@ -114,6 +116,7 @@ brew cask install journey
 ## Alfred
 
 ### Make pirated Alfred stop asking for contact permission
+
 ```bash
 sudo codesign --force --deep --sign - /Applications/Alfred\ 3.app/Contents/Frameworks/Alfred\ Framework.framework/
 ```
@@ -127,11 +130,13 @@ defaults write com.googlecode.iterm2 OptimumTabWidth -int 500
 ```
 
 ## dash
+
 ```bash
 brew cask install dash
 ```
 
 ## Add user to admin group
+
 ```bash
 sudo dseditgroup -o edit -a $username_to_add -t user admin
 sudo dseditgroup -o edit -a $username_to_add -t user wheel
@@ -139,7 +144,14 @@ sudo dseditgroup -o edit -a $username_to_add -t user wheel
 
 ## Clean space listed as hidden in DaisyDisk
 
-*  Remove local snapshots
-   ```bash
-   sudo tmutil listlocalsnapshotdates | tail -n1 | xargs tmutil deletelocalsnapshots
-   ```
+* Remove local snapshots
+  
+  ```bash
+  sudo tmutil listlocalsnapshotdates | tail -n1 | xargs tmutil deletelocalsnapshots
+  ```
+
+## Toggle indexing
+
+```bash
+sudo mdutil -a -i on/off
+```
